@@ -10,7 +10,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Password Generator</h1>
+        <h1>Joey's Password Generator</h1>
       </header>
       <div class="card">
         <div class="card-header">
@@ -24,8 +24,29 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <div class="passwordOptions">
+
+          <label for="">Number of Characters</label>
+          <div class="character-Amount-Conatiner">
+            <input class="slider" type="range" min="8" max="128" value="8" id="characterAmountRange">
+            <input class="numberBox" type="number" min="8" max="128" value="8" id="characterAmountRange">
+          </div>
+          
+          <label for="includeUpperCase">Include Uppercase</label>
+          <input type="checkbox" id="includeUpperCase">
+
+          <label for="includeLowerCase">Include Lowercase</label>
+          <input type="checkbox" id="includeLowerCase">
+
+          <label for="includeNumbers">Include Numbers</label>
+          <input type="checkbox" id="includeNumbers">
+
+          <label for="includeSymbols">Include Symbols</label>
+          <input type="checkbox" id="includeSymbols">
+
+        </div>
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button type="submit" id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>

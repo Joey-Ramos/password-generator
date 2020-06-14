@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: darkorange;
 }
 
 .wrapper {
@@ -27,11 +27,11 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: white;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: orange;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -42,6 +42,10 @@ header {
   padding: 30px 40px;
 }
 
+.card-header {
+  color: white;
+  text-align: center;
+}
 .card-header::after {
   content: " ";
   display: block;
@@ -74,11 +78,11 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: white;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: orange;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -86,6 +90,11 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkorange;
+  color: white;
 }
 
 button[disabled] {
@@ -116,6 +125,28 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+.passwordOptions {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.slider {
+  width: 150px;
+}
+
+.numberBox {
+  width: 3rem;
+}
+
+.character-Amount-Conatiner {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 690px) {
