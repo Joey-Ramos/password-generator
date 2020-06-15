@@ -1,11 +1,10 @@
 // Assignment code here
 var characterAmountRange = document.getElementById("characterAmountRange")
 var characterAmountNumber = document.getElementById("characterAmountNumber")
-var includeUpperCase = document.getElementById("includeUpperCase")
-var includeLowerCase = document.getElementById("includeLowerCase")
-var includeNumbers = document.getElementById("includeNumbers")
-var includeSymbols = document.getElementById("includeSymbols")
-
+var includeUpperCaseEl = document.getElementById("includeUpperCase")
+var includeLowerCaseEl = document.getElementById("includeLowerCase")
+var includeNumbersEl = document.getElementById("includeNumbers")
+var includeSymbolsEl = document.getElementById("includeSymbols")
 
 
 // Get references to the #generate element
