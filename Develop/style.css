@@ -165,4 +165,13 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+  
+  .slider {
+    width: 100px;
+  }
+  .character-Amount-Conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
